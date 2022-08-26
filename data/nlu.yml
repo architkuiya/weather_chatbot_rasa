@@ -1,0 +1,161 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: weather
+  examples: |
+    - what's the weather in [London]{"entity":"city"}
+    - i want to know the weather for today in [Barcelona]{"entity":"city"}
+    - tell me the weather forecast in [Vienna]{"entity":"city"}
+    - hows the weather today in [A Coruña]{"entity":"city"}
+    - can you tell me the weather in [Madrid]{"entity":"city"} today?
+    - i am interested in the forecast in [Sevilla]{"entity":"city"} today
+    - could you tell me the weather today in [Rabat]{"entity":"city"}?
+    - what is the temperature in [Milos]{"entity":"city"} today?
+    - do you know how many degrees are today in [Athens]{"entity":"city"}?
+    - i would like to know the forecast in [Rome]{"entity":"city"}
+    - tell me the temperature today in [Tokyio]{"entity":"city"}
+    - i was wondering what's the forecast for today in [New York]{"entity":"city"}
+    - i would be interested in the degrees today in [Paris]{"entity":"city"}
+    - i was wondering what is the forecast prediction for today in [Milano]{"entity":"city"}
+    - may i know what is the weather for today in [Budapest]{"entity":"city"}?
+    - weather today in [Helsinki]{"entity":"city"} please
+    - is it going to be hot today in [La Habana]{"entity":"city"}?
+    - can you share the weather forecast today in [Bratislava]{"entity":"city"}?
+    - do you know the temperature for today in [El Cairo]{"entity":"city"}?
+    - what is the weather today in [Brussels]{"entity":"city"}
+    - what's the weather in [Indore]{"entity":"city"}
+    - what's the weather in [Ujjain]{"entity":"city"}
+    - what's the weather in [Dewas]{"entity":"city"}
+    - what's the weather in [Mumbai]{"entity":"city"}
+    - what's the weather in [delhi]{"entity":"city"}
+    - what's the weather in [chennai]{"entity":"city"}
+    - What is the temperature in [New York]{"entity":"city"}
+    - how's the weather in [Newark]{"entity":"city"}?
+    - What is the weather today in [Mumbai]{"entity":"city"}?
+    - Hows the weather in [Paris]{"entity":"city"}?
+    - weather [Boston]{"entity":"city"}?
+    - [Virginia]{"entity":"city"}?
+    - May I know the Temperature today in [Harrison]{"entity":"city"}?
+    - Whats the temp like in [Texas]{"entity":"city"}
+    - Can you tell me the weather in [London]{"entity":"city"}
+    - weather today [Chicago]{"entity":"city"}
+    - whats the weather like in [Michigan]{"entity":"city"}
+    - What's the weather in [Berlin] at the moment?{"entity":"city"}
+    # - What's the weather today?{"entity":"city"}
+    - What's the weather in [London] today?{"entity":"city"}
+    - Show me what's the weather in [Paris]{"entity":"city"}
+    - I wonder what is the weather in [Vilnius] right now?{"entity":"city"}
+    # - what is the weather?{"entity":"city"}
+    # - Tell me the weather{"entity":"city"}
+    - Is the weather nice in [Barcelona] today?{"entity":"city"}
+    - I am going to [London] today and I wonder what is the weather out there?{"entity":"city"}
+    - I am planning my trip to [Amsterdam]. What is the weather out there?{"entity":"city"}
+    - Show me the weather in [Dublin], please{"entity":"city"}
+    - in [London]{"entity":"city"}
+    - [Lithuania]{"entity":"city"}
+    - Oh, sorry, in [Italy]{"entity":"city"}
+    - Tell me the weather in [Vilnius]{"entity":"city"}
+    - The weather condition in [Italy]{"entity":"city"}
+    - What is the weather in [Lahore]?{"entity":"city"}
+    - What is the weather in [Islamabad]?{"entity":"city"}
+    - What is the weather in [Rawalpindi]?{"entity":"city"}
+    - [Rawalpindi]{"entity":"city"}
+    - [Islamabad]{"entity":"city"}
+    - [Lahore]{"entity":"city"}
+    - in [Italy]{"entity":"city"}
+    - city is [London]{"entity":"city"}
+    - at [Barcelona]{"entity":"city"}
+    - in [Rawalpindi]{"entity":"city"}
+    - at [Islamabad]{"entity":"city"}
+    - my city is [Lahore]{"entity":"city"}
+    - what is the weather in [lahore]{"entity":"city"}
+    - what is the weather in [rwp]{"entity":"city"}
